@@ -1,0 +1,147 @@
+.header {
+    width: 50%;
+    padding-top: 4rem;
+    padding-right: 90rem;
+    margin-left: -30px;
+}
+
+
+.title {
+    color: whitesmoke;
+    position: absolute;
+    left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-contianer {
+    background-image: url(./backgroundimg.jpg);
+
+}
+
+.content-blur {
+    backdrop-filter: blur(4px);
+}
+
+.search_box {
+    padding: 5px;
+    width: 70%;
+    background-color: #282828;
+    color: white;
+    border-radius: 3px;
+    margin: 1rem;
+    box-shadow: #1e1a1a;
+   
+}
+
+.search-button {
+    width: 15%;
+    padding: 5px;
+    background-color: rgb(247, 80, 80);
+    border-radius: 3px;
+    box-shadow: rgb(240, 73, 73);
+    color: white;
+    border-color: rgb(241, 83, 83);
+}
+
+.type {
+    color: white;
+    position: relative;
+    top: 2px;
+    left:-590px
+}
+
+.search-titlebutton {
+    width: 7%;
+    padding: 4.5px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 3px;
+    box-shadow: rgb(40, 36, 36);
+    color: white;
+    border-color: rgb(82, 78, 78);
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+}
+
+.search-titlebutton:hover {
+    background-color: rgb(240, 71, 71);
+    transition-duration: 0.7s;
+}
+
+.search-generesbutton {
+    width: 7%;
+    padding: 4.5px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 3px;
+    box-shadow: rgb(40, 36, 36);
+    color: white;
+    border-color: rgb(82, 78, 78);
+    position: absolute;
+    top: 9rem;
+    left: 12.6rem
+}
+
+.search-generesbutton:hover {
+    background-color: rgb(240, 71, 71);
+    transition-duration: 0.7s;
+}
+
+.second-header {
+    padding: 3px;
+    position: absolute;
+    top: 11rem;
+}
+
+.sort {
+    border: 1px solid rgb(75, 72, 72);
+    background-color: rgb(75, 72, 72);
+    box-shadow: #3e3c3c;
+    height: 40px;
+
+}
+
+.sort_by {
+    color: white;
+    position: absolute;
+    top: 11rem;
+    left: 40rem
+        /* position: absolute;
+        top:5.9rem;
+        left:20rem */
+}
+
+.sort-ByReleaseDate {
+    width: 7%;
+    padding: 4.5px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 3px;
+    box-shadow: rgb(40, 36, 36);
+    color: white;
+    border-color: rgb(82, 78, 78);
+    position: absolute;
+    top: 12rem;
+    left: 45rem
+}
+
+.sort-ByReleaseDate:hover {
+    background-color: rgb(240, 71, 71);
+    transition-duration: 0.7s;
+}
+
+.sort-ByRating {
+    width: 7%;
+    padding: 4.5px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 3px;
+    box-shadow: rgb(40, 36, 36);
+    color: white;
+    border-color: rgb(82, 78, 78);
+    position: absolute;
+    top: 12rem;
+    left: 50.5rem
+}
+
+.sort-ByRating:hover {
+    background-color: rgb(240, 71, 71);
+    transition-duration: 0.7s;
+}
